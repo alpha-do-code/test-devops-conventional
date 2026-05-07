@@ -1,1 +1,1 @@
-function paiement(user, montant, methode) { return 'OK'; }
+function paiement(user) { if (user) return 'SUCCESS'; return 'ERROR'; }
