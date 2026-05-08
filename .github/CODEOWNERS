@@ -1,0 +1,12 @@
+# CODEOWNERS - Test DevOps Conventional
+# Ce fichier définit qui doit reviewer quels fichiers/dossiers
+# Documentation: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-security/customizing-your-repository/about-code-owners
+
+# Règle par défaut : Alpha review tout ce qui n'est pas matché plus bas
+*                       @alpha-do-code
+
+# Toute la documentation Markdown
+*.md                    @alpha-do-code
+
+# La config GitHub (workflows, CODEOWNERS lui-même)
+/.github/               @alpha-do-code
